@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blitz News" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3d-8w-NFq">
+                                <rect key="frame" x="135.5" y="28" width="105.5" height="29"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your favourite minimal news client" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ann-cH-9q0">
+                                <rect key="frame" x="111.5" y="65" width="153.5" height="17"/>
+                                <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blitz Icon" translatesAutoresizingMaskIntoConstraints="NO" id="1SW-Mv-WaX">
+                                <rect key="frame" x="132" y="277" width="112.5" height="112.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1SW-Mv-WaX" secondAttribute="height" multiplier="1:1" id="fwy-Of-miZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by NewsAPI.org" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsC-Zq-e6c">
+                                <rect key="frame" x="111.5" y="643" width="151.5" height="16"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9137254901960784" green="0.36470588235294116" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="xsC-Zq-e6c" secondAttribute="bottom" constant="8" symbolic="YES" id="2Ef-jR-E67"/>
+                            <constraint firstItem="M3d-8w-NFq" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" id="2XH-Ho-GIB"/>
+                            <constraint firstItem="ann-cH-9q0" firstAttribute="top" secondItem="M3d-8w-NFq" secondAttribute="bottom" constant="8" id="8qz-Vz-3qY"/>
+                            <constraint firstItem="M3d-8w-NFq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BOI-HE-jEp"/>
+                            <constraint firstItem="xsC-Zq-e6c" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="S1q-JO-iwx"/>
+                            <constraint firstItem="ann-cH-9q0" firstAttribute="centerX" secondItem="M3d-8w-NFq" secondAttribute="centerX" id="Y1O-sY-ZeS"/>
+                            <constraint firstItem="1SW-Mv-WaX" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.3" id="iaQ-2P-wrh"/>
+                            <constraint firstItem="1SW-Mv-WaX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nIO-Qa-LJM"/>
+                            <constraint firstItem="1SW-Mv-WaX" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zEJ-ZY-QLv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Blitz Icon" width="182" height="182"/>
+    </resources>
+</document>

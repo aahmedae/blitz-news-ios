@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="NewsSource" representedClassName="NewsSource" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryID" attributeType="String" syncable="YES"/>
+        <attribute name="sourceDescription" attributeType="String" syncable="YES"/>
+        <attribute name="sourceID" attributeType="String" syncable="YES"/>
+        <attribute name="sourceName" attributeType="String" syncable="YES"/>
+        <attribute name="userSelected" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="NewsSource" positionX="-4014" positionY="-70" width="128" height="118"/>
+    </elements>
+</model>
