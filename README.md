@@ -1,7 +1,16 @@
 # Blitz News
 ### A beautiful and minimalistic iOS news reader built with Swift 3
 
-![](http://imgur.com/fbubHow)![](http://imgur.com/eQFytlU)![](http://imgur.com/ysAygQG)
+![](https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/showcase.png)  
+
+
+![](https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/01.png)  
+
+
+![](https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/02.png)  
+
+
+![](https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/03.png)  
 
 
 #### Description
