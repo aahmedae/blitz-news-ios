@@ -1,17 +1,21 @@
 # Blitz News
 ### A beautiful and minimalistic iOS news reader built with Swift 3
 
-<img src = "https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/showcase.png" width = "400"> 
+<p align = "center">
+  <img src = "https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/showcase.png" width = "400"> 
+</p>
 
+<p align = "center">
+  <img src = "https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/01.png" width = "400">  
+</p>
 
-<img src = "https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/01.png" width = "400">  
+<p align = "center">
+  <img src = "https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/02.png" width = "400">   
+</p>
 
-
-<img src = "https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/02.png" width = "400">   
-
-
-<img src = "https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/03.png" width = "400">  
-
+<p align = "center">
+  <img src = "https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/03.png" width = "400">  
+</p>
 
 #### Description
 Blitz News is a minimal news reader app that leverages the [news api](newsapi.org) to aggregate news from multiple news sources. The user can select their preferred news sources and view the latest news articles for those sources. Developed using Swift 3.
@@ -37,3 +41,8 @@ View controllers utilse static classes and helper classes for dealing with heavy
 
 * Unit and UI testing
 XCTestCases for testing out core functionality of the classes and UI automation testing
+
+
+<p align = "center">
+  <a href = "https://itunes.apple.com/ae/app/blitz-news/id1244146527?mt=8"><img src = "https://github.com/aahmedae/aahmedae.github.io/blob/master/images/screenshots/other/app_store_download_badge.svg"></a>  
+</p>
